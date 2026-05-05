@@ -1,0 +1,39 @@
+{
+  "name": "wsl-html-pdf",
+  "version": "2.0.0",
+  "description": "Unified Markup Converter: Professional CLI tool to convert HTML and XML (with XSLT support) to PDF.",
+  "main": "index.js",
+  "bin": {
+    "wsl-html-pdf": "./index.js"
+  },
+  "keywords": [
+    "html",
+    "xml",
+    "xslt",
+    "pdf",
+    "puppeteer",
+    "converter",
+    "tax-xml",
+    "cli"
+  ],
+  "author": "DucQuang65",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DucQuang65/html-to-pdf.git"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "xslt-processor": "^5.0.7"
+  },
+  "devDependencies": {
+    "c8": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "c8 --100 --reporter=text --reporter=lcov node --test",
+    "test:node": "node --test --experimental-test-coverage"
+  }
+}

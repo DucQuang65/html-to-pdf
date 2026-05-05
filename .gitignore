@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build and Output
+dist/
+build/
+*.pdf
+output.pdf
+sample.pdf
+
+# Test Coverage
+coverage/
+.nyc_output
+test/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive Data & Temp Files
+# Excluding all XML files by default to prevent accidental PII leakage
+*.xml
+!samples/*.xml
+.env
+scratch_*.js
+temp/
